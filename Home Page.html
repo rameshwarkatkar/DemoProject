@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+        }
+
+        /* Header */
+        header {
+            background: #007bff;
+            padding: 15px 30px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Banner */
+        .banner {
+            background: url('https://picsum.photos/1200/400') no-repeat center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+            text-align: center;
+        }
+
+        .banner h2 {
+            font-size: 40px;
+            margin: 0;
+        }
+
+        /* Services */
+        .services {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 30px;
+        }
+
+        .service-box {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 280px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        /* Footer */
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Services</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <h2>Welcome to Our Website</h2>
+    </div>
+
+    <!-- Services Section -->
+    <section class="services">
+        <h2>Our Services</h2>
+
+        <div class="service-box">
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>We build modern and responsive websites for businesses.</p>
+            </div>
+
+            <div class="card">
+                <h3>App Development</h3>
+                <p>Create mobile apps with great design and performance.</p>
+            </div>
+
+            <div class="card">
+                <h3>Digital Marketing</h3>
+                <p>Grow your brand online with SEO and social media marketing.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 My Website. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
